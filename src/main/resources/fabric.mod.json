@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "autoresistance",
+  "version": "${version}",
+  "name": "AutoResistance",
+  "description": "A deadly hit leaves you at 1 heart with infinite Resistance 99 until you heal to 2 hearts. Toggle with /autoresistance.",
+  "authors": ["Universal_XP_"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.universalxp.autoresistance.AutoResistance"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
